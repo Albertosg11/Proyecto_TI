@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="IMG/Logo_Unam_blanco.png">
+    <title>ITIL - Servicios TI | Marco de mejores prácticas para gestión de TI</title>
+    <meta name="description" content="Información completa sobre ITIL, el marco de mejores prácticas para la gestión de servicios de TI. Conoce sus procesos, implementación y beneficios.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand my-custom-navbar" href="#">
+                <img src="IMG/Logo_Unam_blanco.png" alt="Logo UNAM" height="60" class="me-3">
+                Administración de Servicios de TI
+            </a>            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-home me-1"></i> Inicio</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="temasDropdown" role="button" data-bs-toggle="dropdown">
+                            <i class="fas fa-book me-1"></i> Temas
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><h6 class="dropdown-header">Marcos de Referencia</h6></li>
+                            <li><a class="dropdown-item" href="pages/gobernanza-ti.html"><i class="fas fa-chess me-2"></i>Gobernanza de TI</a></li>
+                            <li><a class="dropdown-item" href="pages/gestion-servicios.html"><i class="fas fa-cogs me-2"></i>ITSM</a></li>
+                            <li><a class="dropdown-item" href="pages/itil.html"><i class="fas fa-book-open me-2"></i>ITIL</a></li>
+                            <li><a class="dropdown-item" href="pages/cobit.html"><i class="fas fa-project-diagram me-2"></i>COBIT</a></li>
+                            <li><a class="dropdown-item" href="pages/implementacion.html"><i class="fas fa-regular fa-rectangle-list me-2"></i>Implementación</a></li>
+                            <li><a class="dropdown-item" href="pages/implementacion.html"><i class="fas fa-regular fa-calendar me-2"></i>Plan Desarrollo</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="pages/opiniones.html"><i class="fas fa-users me-1"></i> Equipo</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="itil" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h1 class="section-title">ITIL: Marco de Mejores Prácticas para Gestión de TI</h1>
+                <p class="section-subtitle lead">De la teoría a la implementación efectiva en servicios de TI</p>
+                <hr class="divider mx-auto">
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="card shadow-sm mb-4">
+                        <div class="card-body">
+                            <h2 class="fw-bold mb-4">ITSM y su relación con ITIL</h2>
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <p class="mb-12">ITSM es un conjunto de capacidades que permiten a una empresa ofrecer servicios valiosos a sus clientes. Anteriormente, las empresas se centraban en sus aspectos internos, pero hoy en día deben priorizar la calidad de sus servicios y la relación con los clientes.</p>
+                                    <p>Tanto grandes como pequeñas empresas pueden implementar ITSM, ajustando su aplicación según su tamaño y necesidades. La alineación entre el negocio y TI se logra mediante la implementación de ITSM en los procesos de servicio.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card shadow-sm mb-4">
+                        <div class="card-body">
+                            <h2 class="fw-bold mb-4">Marco de Trabajo ITIL: Evolución y Componentes</h2>
+                            <p class="mb-4">ITIL es un marco de "mejores prácticas" para la gestión de servicios de TI, adaptable a cualquier entorno empresarial. Desarrollado en los años 80 por la Agencia Central de Computación y Telecomunicaciones del Reino Unido (CCTA), ITIL ha evolucionado hasta su versión actual, ITIL v4.</p>
+                            
+                            <h3 class="h4 mt-4 mb-3">Estructura de ITIL v3 (5 etapas clave):</h3>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list-group list-group-flush mb-4">
+                                        <li class="list-group-item">
+                                            <strong>Estrategia del Servicio:</strong> 
+                                            <span class="d-block text-muted small">Define el papel del ITSM como un activo estratégico dentro de la organización.</span>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <strong>Diseño del Servicio:</strong> 
+                                            <span class="d-block text-muted small">Desarrolla métodos y planes para convertir objetivos estratégicos en servicios funcionales.</span>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <strong>Transición del Servicio:</strong> 
+                                            <span class="d-block text-muted small">Facilita la implementación de nuevos servicios o mejoras en un entorno operativo controlado.</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <strong>Operación del Servicio:</strong> 
+                                            <span class="d-block text-muted small">Abarca la gestión diaria de los servicios de TI.</span>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <strong>Mejora Continua del Servicio (CSI):</strong> 
+                                            <span class="d-block text-muted small">Busca optimizar continuamente la eficiencia y efectividad de los servicios.</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <div class="card h-100 shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="fw-bold mb-4">Implementación de ITIL</h3>
+                                    <p class="mb-4">Para implementar el marco ITIL, es necesario establecer políticas y procedimientos claros que sean seguidos en todos los niveles de la organización.</p>
+                                    
+                                    <div class="mb-4">
+                                        <h4 class="h5">Desafíos comunes:</h4>
+                                        <ul class="mb-3">
+                                            <li>Falta de documentación en la planificación de servicios</li>
+                                            <li>Resistencia al cambio organizacional</li>
+                                            <li>Falta de alineación entre departamentos</li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <div class="mb-4">
+                                        <h4 class="h5">Soluciones prácticas:</h4>
+                                        <ul>
+                                            <li>Uso de plantillas estandarizadas como herramientas de gestión del conocimiento</li>
+                                            <li>Acceso centralizado a información previa para facilitar la creación de nuevos documentos</li>
+                                            <li>Modelos que garanticen que los servicios respondan a necesidades organizacionales</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="card h-100 shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="fw-bold mb-4">Conclusiones y Recomendaciones</h3>
+                                    <div class="mb-4">
+                                        <h4 class="h5">Análisis de la organización XYZ:</h4>
+                                        <ul class="mb-3">
+                                            <li>Capacidad en estrategia de servicios de TI evaluada como buena</li>
+                                            <li>Departamento de sistemas cuenta con un blueprint que guía el desarrollo de nuevos servicios</li>
+                                            <li>Necesidad de adaptación continua basada en solicitudes de usuarios</li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <div class="mb-4">
+                                        <h4 class="h5">Recomendaciones clave:</h4>
+                                        <ol>
+                                            <li class="mb-2">Adoptar un modelo basado en ITIL en la fase de estrategia de servicio</li>
+                                            <li class="mb-2">Implementar gestión del portafolio de servicios y gestión financiera para TI</li>
+                                            <li class="mb-2">Establecer políticas y procedimientos de gestión claros</li>
+                                            <li class="mb-2">Fortalecer la gestión de relaciones empresariales</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card shadow-sm mb-4">
+                        <div class="card-body text-center">
+                            <h3 class="fw-bold mb-4">Beneficios de Implementar ITIL</h3>
+                            <div class="row">
+                                <div class="col-md-4 mb-3">
+                                    <div class="card h-100 border-primary">
+                                        <div class="card-body">
+                                            <i class="fas fa-chart-line fa-3x text-primary mb-3"></i>
+                                            <h5 class="card-title">Alineación Estratégica</h5>
+                                            <p class="card-text">Conecta los servicios de TI con los objetivos del negocio</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card h-100 border-success">
+                                        <div class="card-body">
+                                            <i class="fas fa-cogs fa-3x text-success mb-3"></i>
+                                            <h5 class="card-title">Eficiencia Operativa</h5>
+                                            <p class="card-text">Optimiza procesos y reduce costos operativos</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card h-100 border-info">
+                                        <div class="card-body">
+                                            <i class="fas fa-user-check fa-3x text-info mb-3"></i>
+                                            <h5 class="card-title">Satisfacción del Cliente</h5>
+                                            <p class="card-text">Mejora la experiencia y calidad del servicio</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h5 class="text-uppercase mb-4">Proyecto Final</h5>
+                    <p>Proyecto final de la materia donde exploramos los principales marcos de referencia para la gestión de tecnologías de la información.</p>
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h5 class="text-uppercase mb-4">Enlaces Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-white-50">Inicio</a></li>
+                        <li class="mb-2"><a href="pages/gobernanza-ti.html" class="text-white-50">Gobernanza de TI</a></li>
+                        <li class="mb-2"><a href="itil.html" class="text-white-50">ITIL</a></li>
+                        <li class="mb-2"><a href="pages/cobit.html" class="text-white-50">COBIT</a></li>
+                        <li class="mb-2"><a href="pages/cobit.html" class="text-white-50">Implementacion</a></li>
+                        <li class="mb-2"><a href="pages/cobit.html" class="text-white-50">Plan de desarrollo</a></li>
+                        <li><a href="pages/opiniones.html" class="text-white-50">Opiniones del Equipo</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="text-uppercase mb-4">Integrantes</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-user me-2"></i>Salsedo Garcia Alberto</li>
+                        <li class="mb-2"><i class="fas fa-user me-2"></i>Santana Carbajal Victor Yael</li>
+                        <li class="mb-2"><i class="fas fa-user me-2"></i>Cortes Sanchez Edgar Emilio</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4 bg-secondary">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="small mb-0">&copy; 2025 Administración de Servicios de TI. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
